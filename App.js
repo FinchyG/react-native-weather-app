@@ -11,7 +11,7 @@ import Months from './components/Months';
 import WeekDays from './components/WeekDays';
 
 // component constants
-import AppHeader from './components/AppHeader';
+import H2Heading from './components/H2Heading';
 import SearchBar from './components/SearchBar';
 import SearchButton from './components/SearchButton';
 
@@ -76,7 +76,7 @@ function App() {
 
 	return (
 		<View style={styles.appStyle}>
-			<AppHeader
+			<H2Heading
 			  textContent='Place Search Weather App' 
       		/>
 			<Text>Type in a place and hit enter to search for current weather</Text>
