@@ -1,7 +1,7 @@
 import React from "react";
 import {StyleSheet, Text} from 'react-native';
 
-function AppHeader(props) {
+function H2Heading(props) {
 
   const styles = StyleSheet.create({
     header1Style: { 
@@ -21,4 +21,4 @@ function AppHeader(props) {
   );
 }
 
-export default AppHeader;
+export default H2Heading;
